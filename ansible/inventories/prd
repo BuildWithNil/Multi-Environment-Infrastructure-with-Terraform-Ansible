@@ -1,9 +1,9 @@
 [servers]
-server1 ansible_host=54.74.88.185
-server2 ansible_host=54.246.4.207
-server3 ansible_host=108.129.126.185
+server1 ansible_host=<SERVER_1_PUBLIC_IP>
+server2 ansible_host=<SERVER_2_PUBLIC_IP>
+server3 ansible_host=<SERVER_3_PUBLIC_IP>
 
 [servers:vars]
 ansible_user=ubuntu
-ansible_ssh_private_key_file=/home/nil/.ssh/nil-terra-key.pem
+ansible_ssh_private_key_file=~/.ssh/nil-terra-key.pem
 ansible_python_interpreter=/usr/bin/python3
